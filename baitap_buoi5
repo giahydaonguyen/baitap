@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dao nguyen gia hy_ buoi 5</title>
+</head>
+<body>
+    <h1>BÀI 1</h1>
+    <fieldset>
+        <legend>Thông tin cá nhân</legend>
+      <p>Họ và tên:<input type="text"></p>
+      <p>Email: <INPUT type="text"></p>
+    <p>Mật khẩu: <INPUT type="password"></p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Giới tính</legend>
+        <input name="gt" type="radio">Nam
+        <input name="gt" type="radio">Nữ
+        <input name="gt" type="radio">Khác
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Sở thích</legend>
+        <input type="checkbox" name="" id="">Âm nhạc <br>
+        <input type="checkbox" name="" id="">Thể thao <br>
+        <input type="checkbox" name="" id="">Du lịch
+    </fieldset>
+    <br>
+    <button type="submit">Đăng kí</button>
+    <H1>BÀI 2</H1>
+    <H1 align="center"><B>Đăng kí thành viên</B></H1>
+    <fieldset>
+        <legend>Thông tin cơ bản</legend>
+        <p>Họ tên: <input type="text"></p>
+        <p>Ngày sinh: <input type="date"></p>
+        <label for="country">Quốc gia: </label>
+        <select id="country" name="country">
+            <option value="vn">Việt Nam</option>
+            <option value="us">US</option>
+            <option value="jp">Japan</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Bạn muốn nhận thông tin qua</legend>
+        <input type="checkbox">Email <br>
+        <input type="checkbox">Tin nhắn SMS <br>
+        <input type="checkbox">Bưu điện
+    </fieldset>
+    <br>
+    <button type="submit">Đăng kí</button>
+    <h1>BÀI 3</h1>
+<H1 align="center"><B>Đăng kí môn học</B></H1>
+<fieldset>
+    <legend>Thông tin sinh viên</legend>
+    <p>Mã SV: <input type="text"></p>
+    <p>Họ tên: <input type="text"></p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Chọn môn học</legend>
+    <label for="mon"></label>
+        <select id="mon" name="mon">
+            <option value="toan">Toán</option>
+            <option value="anhvan">Anh văn</option>
+        </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Ghi chú</legend>
+    <textarea name="note" id="" ></textarea>
+</fieldset>
+<br>
+<button type="submit">Đăng kí</button>
+<h1>BÀI 4</h1>
+<H1 align="center"><B>Form Đăng kí sự kiện</B></H1>
+<fieldset>
+    <legend>Thông tin người tham dự</legend>
+    <p>Họ và tên: <input type="text"></p>
+    <p>Email: <input type="text"></p>
+    <p>Ngày tham dự: <input type="date"></p>
+    <p>Giờ: <input type="time"></p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Lựa chọn</legend>
+    <p>Vé tham dự: <input type="radio" name="vtd">Phổ thông <input type="radio" name="vtd">VIP</p>
+    <p>Dịch vụ thêm: <input type="checkbox" name="">Ăn trưa <input type="checkbox" name="">Quà tặng</p>
+</fieldset>
+<br>
+<button type="submit">Đăng kí</button>
+<H1>BÀI 5</H1>
+<H1 align="center"><B>Đăng kí tài khoản</B></H1>
+<fieldset>
+    <legend>Tài khoản</legend>
+    <p>Tên đăng nhập: <input type="text"></p>
+    <p>Mật khẩu: <input type="password"></p>
+    <p>Xác nhận mật khẩu: <input type="password"></p>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Thông tin cá nhân</legend>
+    <p>Họ và tên: <input type="text"></p>
+    <p>Ngày sinh: <input type="date"></p>
+    <p>Giới tính: <input type="radio" name="gtt">Nam  <input type="radio" name="gtt">Nữ  <input type="radio" name="gtt">Khác</p>
+    <label for="country">Quốc gia: </label>
+    <select id="country" name="country">
+        <option value="vn">Việt Nam</option>
+        <option value="us">US</option>
+        <option value="jp">Japan</option>
+    </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>Tùy chọn</legend>
+    <input type="checkbox">Tôi đồng ý với điều khoản sử dụng
+</fieldset>
+<br>
+<button type="submit">Đăng kí</button>
+</body>
+</html>
